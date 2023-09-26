@@ -1,0 +1,76 @@
+.team-heading {
+	color: #4e54c8;
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+.scrollable-card-grid {
+	scrollbar-color: #201c29;
+	scrollbar-width: 10px;
+	scrollbar-gutter: always;
+	padding: 3rem;
+	display: -webkit-box;
+	display: flex;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.scrollable-card {
+	min-width: 250px;
+	min-height: 250px;
+	padding: 1.5rem;
+	border-radius: 16px;
+	background: pink;
+	box-shadow: -0.5rem 0 1rem #000;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+	margin: 0;
+	&:hover {
+		-webkit-transform: translateY(-1rem);
+		transform: translateY(-1rem);
+		cursor: pointer;
+		~ .scrollable-card {
+			-webkit-transform: translateX(130px);
+			transform: translateX(130px);
+		}
+	}
+	&:not(:first-child) {
+		margin-left: -130px;
+	}
+}
+
+.card-header {
+	h2 {
+		color: #fff;
+		font-size: 20px;
+		margin: .25rem 0 auto;
+	}
+}
+
+.team-img{
+	width: 70%;
+	height: 70%;
+	border-radius: 50%;
+}
+
+.team-role{
+	margin-top: 15px;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.team-name{
+	margin-bottom: 5px;
+}
+
+.team-icons{
+	margin-left: 15px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+}

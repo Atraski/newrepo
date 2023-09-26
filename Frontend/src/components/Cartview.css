@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+.body {
+  font-family: 'Manrope', sans-serif;
+  background-color:#eee;
+  height: 790px;
+}
+
+.size span {
+  font-size: 11px;
+}
+
+.color span {
+  font-size: 11px;
+}
+
+.product-deta {
+  margin-right: 70px;
+}
+
+.gift-card:focus {
+  box-shadow: none;
+}
+
+.pay-button {
+  color: #fff;
+}
+
+.pay-button:hover {
+  color: #fff;
+}
+
+.pay-button:focus {
+  color: black;
+  box-shadow: none;
+}
+
+.text-grey {
+  color: black;
+}
+
+.qty i {
+  font-size: 11px;
+}
+.cartssss{
+  display:flex;
+  justify-content: center;
+  
+}
+.bloggerText{
+  font-size: 1.5rem !important;
+}
+
+@media screen and (max-width:800px){
+  .bloggerText{
+    font-size: 1rem !important;
+  }
+  .pay-button{
+      width: auto;
+      font-size:15px;
+      padding: 5.5px;
+  }
+  .qty{
+    flex-direction:row ;
+    justify-content: flex-start ;
+  align-items:none;
+  }
+  .direaction{
+    display:flex;
+    flex-direction:column ;
+    /* border:1px solid black; */
+    padding:0;
+    /* width:300px; */
+  }
+  .bloggerText{
+    font-size:15px;
+  }
+  .cartssss{
+    display:flex;
+    justify-content: space-between;
+    /* width:50%; */
+    margin-bottom: 5px;
+    margin-left: 25px;
+  }
+  .mm{
+    margin-bottom: 7px;
+    margin-left: 4px;
+    padding: 8px;
+  }
+  .m{
+    margin-bottom: 12px !important ;
+
+  }
+  img{
+    height:180px!important;
+    width: 170px;
+  }
+  .ttt{
+    font-size: 10px !important;
+  }
+  .direaction{
+    flex-direction: column !important;
+  }
+  .product-details{
+    margin-top: 30px;
+  }
+  .h5{
+    font-size: 1.2rem !important;
+  }
+}
+@media screen and (max-width:396px){
+  .pay-button{
+    width: auto;
+    font-size:15px;
+    padding: 5px !important;
+    
+}
+.tt{
+  font-size:15px !important;
+  margin-bottom: 3px !important;
+}
+
+}

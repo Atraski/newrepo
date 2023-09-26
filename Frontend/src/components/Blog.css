@@ -1,0 +1,41 @@
+h1 , h2, h3, h4, h5 , h6 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:17px;
+}
+
+.para{
+    line-height:1.8;
+}
+
+
+
+.bb{
+   
+	/* height: 100vh; */
+    position:fixed;
+    right:0;
+    top:25%;
+    
+    
+    
+}
+
+@media screen and (max-width:1000px){
+    
+
+.bb{
+   
+	/* height: 100vh; */
+    display:none;
+    
+    
+    
+}
+}
+
+
+

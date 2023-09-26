@@ -1,0 +1,309 @@
+
+
+.blogger-1{
+    height:800px;
+    /* background-color: green; */
+    overflow: hidden;
+    width:80vw;
+    margin:auto;
+    color:#fc0c8c;
+
+}
+video{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+source{
+    width:100%;
+}
+
+.blog-heading1{
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-heading1 h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color:#fc0c8c;
+
+}
+.bloggger-2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.blogger-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    width:60%;
+    height:300px;
+    background-color: #f9f03d;
+    /* background-color: white; */
+
+
+    ;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+.blogger-3 h1{
+    color:#161315;
+    font-size:1.9rem;
+
+
+
+}
+.blogger-3 p{
+    color:black;
+    font-size:1.3rem;
+
+
+}
+
+.blogger-4 {
+    background-color:#fc0c8c;
+}
+
+.join-community{
+    background-color: transparent;
+    color:#fc0c8c;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+
+}
+.join-community h4{
+    color:#fc0c8c;
+    font-weight: 600;
+
+
+}
+.join-community Link{
+    color:#fc0c8c;
+
+
+}
+.rowm{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+}
+.rowm1{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left:6rem; */
+    /* flex-direction: row; */
+    justify-content:space-between;
+    align-items: center;
+
+
+}
+
+.gallery-col{
+    width:40%;
+}
+.slide1{
+    width:100%;
+    overflow: hidden;
+    background-color: #f9f03d;
+    margin-top: 5px;
+    
+}
+.slide2{
+    width:80%;
+    background-color: #f9f03d;
+
+
+
+}
+img {
+/*     width: 100%; */
+}
+
+.image-title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.gallery-col {
+    width:32%;
+ 
+
+}
+.k1{
+    margin-left: 5rem !important;
+}
+.ambasador{
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .ambasador h1{
+    font-size: 4rem;
+    color:#fc0c8c;
+    }
+
+@media screen and (max-width:600px) {
+  
+    .blogger-1{
+        height:auto;
+    }
+    .blogger-2{
+        height: auto;
+        font-size:0.9rem;
+
+        
+    }
+    
+    
+    .blogger-3{
+        height:auto;
+    
+    }
+    .blogger-3 p{
+        font-size:0.7rem;
+        padding: 3px;
+
+
+    }
+    .blogger-3 h1{
+        font-size:1rem;
+        text-align:start;
+        margin-top: 22px;
+
+    }
+    .blog-heading1 h1{
+        font-size: 2rem;
+    }
+    /* .rowm{
+        margin-left:2rem;
+    } */
+    .row1{
+        margin-left:2.3rem;
+    }
+    .gallery-col img{
+        border:none !important;
+        border-radius: 0px !important;   
+   
+    }
+    .gallery-col {
+        width:100%;
+     
+   
+    }
+
+
+    #root{
+        overflow: hidden;
+    }
+    .image-title{
+        font-size: 0.7rem !important;
+       
+    }
+    .image-overlay {
+        left:46%;
+    }
+    .rowm1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width:800px;
+    
+    
+    }
+    .k1{
+        margin-left:-2rem !important;
+    }
+
+   
+}
+
+@media screen and (min-width:610px) and (max-width:1300px) {
+    #root{
+        overflow: hidden;
+    }
+    .blogger-1{
+        height:auto;
+    }
+    .blogger-2{
+        height: auto;
+        font-size:0.9rem;
+
+        
+    }
+
+   
+
+    .blogger-3{
+        height:auto;
+    
+    }
+    .blogger-3 p{
+        font-size:1rem;
+    }
+    .blogger-3 h1{
+        font-size:1rem;
+        text-align:start;
+        margin-top: 22px;
+    }
+    .blog-heading1 h1{
+        font-size: 2rem;
+        padding: 4px;
+
+    }
+    /* .rowm{
+        margin-left:12%;
+    } */
+    .row1{
+        margin-left:13%;
+    }
+    .gallery-col img{
+        border:none !important;
+        border-radius: 0px !important;
+        width:90%;
+        margin-left: 9px;
+      
+    }
+    .image-title{
+        font-size: 0.9rem !important;
+       
+    }
+    .mm {
+        left:10%;
+    }
+    .gallery-col {
+        width:50%;
+
+    
+    }
+    .rowm1{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+    
+    
+    }
+    .k1{
+        margin-left:6rem !important;
+    }
+   
+}
+@media screen and (min-width:1300px) {
+    .card-top img{
+    height:300px;
+    max-width: 500px;
+}
+}
+/* ----------- */
+
+
+
+
